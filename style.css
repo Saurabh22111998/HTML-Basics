@@ -1,0 +1,41 @@
+p,h1{
+    margin-left: 30px;
+    color:white;
+}
+*{
+    background-color: black;
+}
+input{
+    color:white;
+    height: 20px;
+    width:60%;
+    padding:5px;
+    margin-bottom: 7px;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+button{
+    margin-left:  30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:white;
+    border-color: white;
+    padding:5px;
+    border-width: 2px;
+}
+
+button:hover{
+    color:grey;
+    border-color:grey;
+    cursor: pointer;
+    
+   
+}
+input:focus{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid white;
+    
+}
